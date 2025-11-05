@@ -138,3 +138,21 @@ p,
 .android-download-btn:focus {
   background: #ffb964;
 }
+
+.footer {
+  padding: 3em 1.25em 5em 1.25em;
+}
+
+.copyright-and-contact {
+  margin: 2em 0;
+  line-height: 150%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.social-icons-container {
+  display: flex;
+  gap: 2em;
+}
