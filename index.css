@@ -10,4 +10,34 @@ html {
 
 body {
   margin: 0;
+  font-family: "IBM Plex Sans";
+}
+
+h1,
+h2,
+p,
+.social-icon {
+  color: #191826;
+}
+
+.hero {
+  padding: 4em 1.25em;
+  background: url("./assets/bg-main-mobile.png");
+  background-position: bottom left;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  line-height: 100%;
+  margin: 4rem 0 2.5rem 0;
+}
+
+.hero-p {
+  line-height: 150%;
+}
+
+.phone-img {
+  display: block;
+  width: 208.97px;
+  margin: 0 auto;
 }
