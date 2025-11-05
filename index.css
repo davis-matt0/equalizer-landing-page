@@ -11,6 +11,7 @@ html {
 body {
   margin: 0;
   font-family: "IBM Plex Sans";
+  text-align: left;
 }
 
 h1,
@@ -24,6 +25,14 @@ p,
   padding: 4em 1.25em;
   background: url("./assets/bg-main-mobile.png");
   background-position: bottom left;
+}
+
+.main-heading,
+.hero-p,
+.info-p,
+.copyright-and-contact,
+.btn {
+  max-width: 335px;
 }
 
 .main-heading {
@@ -75,7 +84,7 @@ p,
 }
 
 .info-p {
-  margin: 1.5em auto 2.5em auto;
+  margin: 1.5em 0 2.5em 0;
   font-size: 16px;
 }
 
