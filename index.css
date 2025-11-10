@@ -27,6 +27,10 @@ p,
   background-position: bottom left;
 }
 
+.illustration-top {
+  display: none;
+}
+
 .main-heading,
 .hero-p,
 .info-p,
@@ -164,4 +168,76 @@ p,
 .social-icons-container {
   display: flex;
   gap: 2em;
+}
+
+@media (min-width: 600px) {
+  .hero {
+    padding: 4em 2.5em;
+    background: url("./assets/bg-main-tablet.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .illustration-top {
+    position: absolute;
+    display: initial;
+    top: -40px;
+    right: -40px;
+    max-width: 255.67px;
+    height: 400px;
+  }
+  .main-heading {
+    font-size: 4rem;
+    max-width: 416px;
+    margin-top: 8rem;
+  }
+  .hero-p {
+    font-size: 1.125rem;
+    max-width: 504px;
+  }
+  .illustration-section {
+    margin: 120px 2.5em;
+    border-radius: 12px;
+    padding: 19em 0;
+  }
+  .illustration-bg {
+    position: absolute;
+    top: 0;
+  }
+  .phone-img {
+    width: 280px;
+    top: -7em;
+    left: -3em;
+    z-index: 1;
+  }
+  .info-section {
+    position: absolute;
+    border-radius: 16px;
+    top: 900px;
+    left: 315px;
+    z-index: 2;
+    padding: 3em 3em 0 3em;
+    max-width: 356px;
+  }
+  .info-p {
+    font-size: 1.125rem;
+  }
+  .footer {
+    padding: 9em 2.5em 4em 2.5em;
+  }
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .copyright-and-contact {
+    max-width: 644px;
+  }
+  .social-icons-container {
+    /* gap: 2.5em; */
+  }
+  .social-icon {
+    width: 20px;
+    height: 20px;
+  }
 }
